@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@600&family=Roboto:wght@500&display=swap" rel="stylesheet">
+<script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=-u7GUWiNlwoSN6ptWt_5JKjX_m9bFiRjBI1eK7bwmLl0DlH8GQeZpPxI-a8muVzfNhpiMPxcADuCxslASbFKzalTaWBAh2daXoj9Ic7TzSQ" charset="UTF-8"></script></head>
+
+<body>
+
+    <header>
+
+    </header>
+
+    <main>
+        <h1>♥CALCULADORA♥</h1>
+        <!-- <input id="calculo1" placeholder="Escribe algo aquí">
+    <input id="calculo2" placeholder="Escribe algo aquí"> -->
+
+        <div>
+            <section class="operaciones">
+                <p id="pOperaciones" class = "display-operaciones"></p>
+            </section>
+
+            <section class="resultado">
+                <p id="pResult" class = "display-resultado"></p>
+            </section>
+
+            <section class="botones-principales">
+                <!-- <button id="boton-cero" onclick="botonCero()">0</button>
+        <button id="boton-uno" onclick="botonUno()">1</button>
+        <button id="boton-dos" onclick="botonDos()">2</button>
+        <button id="boton-tres" onclick="botonTres()">3</button>
+        <button id="boton-cuatro" onclick="botonCuatro()">4</button>
+        <button id="boton-cinco" onclick="botonCinco()">5</button>
+        <button id="boton-siete" onclick="botonSeis()">6</button>
+        <button id="boton-siete" onclick="botonSiete()">7</button>
+        <button id="boton-ocho" onclick="botonOcho()">8</button>
+        <button id="boton-nueve" onclick="botonNueve()">9</button>
+        <button id="boton-suma" onclick="botonSuma()">+</button>
+        <button id="boton-resta" onclick="botonResta()">-</button>
+        <button id="boton-multiplicacion" onclick="botonMultiplicacion()">&#0215</button>
+        <button id="boton-division" onclick="botonDivision()">÷ </button>
+        <button id="boton-resultado" onclick="botonResultado()">=</button>
+        <button id="boton-punto" onclick="botonPunto()">.</button> -->
+                <button id="boton-siete" onclick="botonOnClick(7)">7</button>
+                <button id="boton-ocho" onclick="botonOnClick(8)">8</button>
+                <button id="boton-nueve" onclick="botonOnClick(9)">9</button>
+                <button id="boton-suma" onclick="botonOnClick('+')">+</button>
+                <button id="boton-cuatro" onclick="botonOnClick(4)">4</button>
+                <button id="boton-cinco" onclick="botonOnClick(5)">5</button>
+                <button id="boton-seis" onclick="botonOnClick(6)">6</button>
+                <button id="boton-resta" onclick="botonOnClick('-')">-</button>
+                <button id="boton-uno" onclick="botonOnClick(1)">1</button>
+                <button id="boton-dos" onclick="botonOnClick(2)">2</button>
+                <button id="boton-tres" onclick="botonOnClick(3)">3</button>
+                <button id="boton-multiplicacion" onclick="botonOnClick('*')">&#0215</button>
+                <button id="boton-cero" onclick="botonOnClick(0)">0</button>
+                <button id="boton-punto" onclick="botonOnClick('.')">.</button>
+                <button id="boton-resultado" onclick="botonOnClick('=')">=</button>
+                <button id="boton-division" onclick="botonOnClick('/')">÷</button>
+
+            </section>
+            <section class="boton-secundario">
+
+                <button id="boton-reset" onclick="botonOnClick('AC')" class = "boton-reset">AC</button>
+            </section>
+            <!-- <p id="result"></p> -->
+            <script src="./script.js">
+            </script>
+
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
